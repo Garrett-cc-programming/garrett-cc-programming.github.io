@@ -17,7 +17,7 @@ body {
     80% {background-color: blue;}
     100% {background-color: purple;}
 }
-a:link {
+#rainbow {
     color: rgb(255, 255, 255);
     animation-name: animation1;
     animation-duration: 3s;
@@ -34,9 +34,11 @@ a:active {
     color: white;
 }
 #para1 {
+    color: rgb(26, 26, 26);
     position: absolute;
     bottom: 2%;
     right: 2%;
+    user-select: none;
 }
 p:hover {
     color: rgb(26, 26, 26);
