@@ -1,8 +1,6 @@
 html {
     background-image: linear-gradient(to bottom right, rgb(26, 26, 26),
-    rgb(26, 26, 26), rgb(26, 26, 26), rgb(26, 26, 26),
-    rgb(26, 26, 26), rgb(26, 26, 26), rgb(26, 26, 26),
-    rgb(26, 26, 26), rgb(26, 26, 26), rgb(70, 70, 70));
+    rgb(26, 26, 26));
     height: 100%;
 }
 body {
@@ -85,11 +83,6 @@ p:hover {
     font-weight: bold;
 }
 @media only screen and (max-width: 600px){
-    html {
-        background-image: linear-gradient(to bottom right, rgb(26, 26, 26),
-        rgb(26, 26, 26), rgb(26, 26, 26), rgb(26, 26, 26),
-        rgb(26, 26, 26), rgb(70, 70, 70));
-    }
     body{
         font-size: larger;
         vertical-align: middle;
